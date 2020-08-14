@@ -20,6 +20,6 @@ def crashCandies(candies):
         return candyStack[1:-1]
 
 
-print crashCandies([1,1,2,2,3,3,3,2])
-print crashCandies([1,1,2,2,3,3,3,2,1])
+print (crashCandies([1,1,2,2,3,3,3,2]))
+print (crashCandies([1,1,2,2,3,3,3,2,1]))
 
