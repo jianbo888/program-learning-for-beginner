@@ -55,7 +55,6 @@ def nqueens_iter(n):
                     row -= 1
     return res
 
-solutions = nqueens_iter(8)
+solutions = nqueens_iter(10)
 print("There are {} solutions:".format(len(solutions)))
 print(solutions)
-
